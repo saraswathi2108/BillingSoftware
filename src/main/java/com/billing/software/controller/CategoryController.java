@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin("*")
 @RestController
-@RequestMapping("/api/category")
+@RequestMapping("/api/billing/category")
 @RequiredArgsConstructor
 public class CategoryController {
 
