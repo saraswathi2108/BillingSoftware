@@ -1,10 +1,11 @@
-package com.billing.software.Controller;
+package com.billing.software.controller;
 
-import com.billing.software.Entity.BillingRequest;
+
+import com.billing.software.entity.BillingRequest;
 import com.billing.software.Invoice.InvoiceHtmlBuilder;
-import com.billing.software.Service.FileStorageService;
-import com.billing.software.Service.PdfGeneratorService;
-import com.billing.software.Service.WhatsAppService;
+import com.billing.software.service.FileStorageService;
+import com.billing.software.service.PdfGeneratorService;
+import com.billing.software.service.WhatsAppService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +24,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/billing")
 @Slf4j
-@CrossOrigin("*")
-public class BillingController {
+public class BillController {
 
     @Value("${app.public-base-url:}")
     private String publicBaseUrl;

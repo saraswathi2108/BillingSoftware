@@ -1,4 +1,4 @@
-package com.billing.software.DTO;
+package com.billing.software.dto;
 
 
 import lombok.Data;

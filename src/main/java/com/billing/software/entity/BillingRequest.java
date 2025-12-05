@@ -1,4 +1,4 @@
-package com.billing.software.Entity;
+package com.billing.software.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.billing.software.Service;
+package com.billing.software.service;
 
 import com.openhtmltopdf.pdfboxout.PdfRendererBuilder;
 import org.springframework.stereotype.Service;
